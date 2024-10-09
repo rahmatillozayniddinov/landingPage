@@ -1,0 +1,130 @@
+.studio{
+ display: flex;
+ width: 100%;
+ /* height: 100vh; */
+ gap: 120px;
+ background-color: white;
+ align-items: center;
+ flex-direction: column;
+
+}
+
+.type1{
+ width: 570px;
+ height: 72px;
+ align-items: flex-start;
+}
+
+.center{
+ display: flex;
+ gap: 100px;
+}
+
+.type3 { 
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 350px;
+ height: 72px;
+ word-spacing:5px;
+
+}
+
+.type3 button{
+ width: 200px;
+ background-color: orange;
+ border: none;
+ border-radius: 5px;
+ padding: 15px;
+ color: aliceblue;
+ cursor: pointer;
+ margin-top: 10px;
+ font-size: 20px;
+}
+
+.type3 button:hover{
+ background-color: aqua;
+ color: black ;
+ font-size: 20px;
+}
+
+.center1{
+ width: 200px;
+}
+
+.center2{
+ display: flex;
+ gap: 100px;
+}
+
+.type4{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 350px;
+ height: 72px;
+ word-spacing:5px;
+}
+
+.type4 button{
+ width: 200px;
+ background-color: #000AFF;
+ border: none;
+ border-radius: 5px;
+ padding: 15px;
+ color: aliceblue;
+ cursor: pointer;
+ margin-top: 10px;
+ font-size: 20px;
+}
+
+.type4 button:hover{
+ background-color: aqua;
+ color: blue;
+}
+
+.center3 img{
+ border-radius: 10px;
+}
+.center4{
+ display: flex;
+ gap: 100px;
+}
+
+.type5{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 350px;
+ height: 72px;
+ word-spacing:5px;
+}
+
+.center5{
+ border-radius: 10px;
+}
+
+.type5 button{
+ width: 200px;
+ background-color: #2AB090;
+ border: none;
+ border-radius: 5px;
+ padding: 15px;
+ color: aliceblue;
+ cursor: pointer;
+ margin-top: 10px;
+ font-size: 20px;
+}
+
+.type5 button:hover{
+ background-color: chartreuse;
+ color: black;
+ cursor: pointer;
+}
+
+
+
+
+
+
+

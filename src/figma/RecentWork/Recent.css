@@ -1,0 +1,56 @@
+.recent{
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ width: 100%;
+ height: 120vh;
+ background-color: white;
+ /* padding-top: 5%; */
+}
+
+.resent{
+ width: 450px;
+}
+
+.container{
+ display: flex;
+ gap: 25px;
+ padding-top: 20px;
+ 
+}
+
+.yozuvlar{
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ justify-content: flex-start;
+ width: 350px;
+ text-align: center;
+}
+
+.yozuvlar button{
+ background-color: #000AFF;
+ color: white;
+ width: 200px;
+ height: 50px;
+ border: none;
+ border-radius: 5px;
+ font-size: 1.2rem;
+ margin-top: 25px;
+}
+
+.yozuvlar button:hover{
+ background-color: gold;
+ color: black;
+}
+
+.yozuvlar .right-button{
+  background-color:#2AB090;
+}
+
+.yozuvlar .right-button:hover{
+ background-color: orange;
+ 
+}
+
+

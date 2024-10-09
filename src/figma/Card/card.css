@@ -1,0 +1,65 @@
+.card{
+ width: 100%;
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 8%;
+  gap: 30%;
+  flex-wrap: wrap;
+  
+}
+
+.type{
+ color: aliceblue;
+ width: 400px;
+}
+
+.type span{
+ font-size: 35px;
+}
+
+.type button{
+ width: 307px;
+ height: 63px;
+ background-color: #62BA1B;
+ color: white;
+ border: 1px solid #62BA1B;
+box-shadow: 0px 8px 30px rgba(63, 142, 0, 0.5);
+border-radius: 4px;
+font-size: 1.2rem;
+}
+
+button:hover{
+ background-color: gold;
+ color: black;
+ cursor: pointer;
+}
+
+.picture{
+ width: 350px;
+ height: 350px;
+ border-radius: 100%;
+ background-color: white;
+}
+
+.buttontype{
+ padding-top: 45px;
+ color: aliceblue;
+ display: flex;
+ gap: 130px;
+padding-bottom: 5%;
+}
+
+.buttontype span{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 120px;
+ height: 40px;
+ border: 2px solid #1B1B1B;
+}
+
+.buttontype span:hover{
+ color: #62BA1B;
+ cursor: pointer;
+}
